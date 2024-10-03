@@ -7,5 +7,6 @@ export default function Page() {
     <>
       <h1 className="text-purple-800">Posts</h1>
       {posts.map((post) => <Post key={post.id} {...post} />)}
-    </>)
+    </>
+    )
 }
